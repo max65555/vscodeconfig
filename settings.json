@@ -1,0 +1,124 @@
+{
+    "php.validate.executablePath": "D:\\Application\\php\\php-7.4.25-Win32-vc15-x64\\php.exe",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "d"],
+            "after": ["d", "d"]
+        },
+        {
+            "before": ["<C-n>"],
+            "commands": [":nohl"]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "editor.parameterHints.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "emmet.excludeLanguages": ["markdown", "handlerbars"],
+    "emmet.triggerExpansionOnTab": true,
+    "editor.wordWrap": "on",
+    //Prettier - code formatter
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    // ./ path intellisense
+    "typescript.suggest.paths": false,
+    "javascript.suggest.paths": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "One Dark Pro Darker",
+    //indent-raibow set color
+    "indentRainbow.colors": [
+        "rgba(136, 224, 239,0.07)",
+        "rgba(176, 0, 185,0.07)",
+        "rgba(255, 81, 81,0.07)",
+        "rgba(255, 155, 106,0.07)"
+    ],
+    "liveServer.settings.donotVerifyTags": true,
+    "explorer.confirmDragAndDrop": false,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "explorer.confirmDelete": false,
+    //hide minimap (preview code in the right)
+    "editor.minimap.enabled": false,
+    "editor.cursorSmoothCaretAnimation": true,
+    "prettier.tabWidth": 4,
+    "prettier.configPath": "D:\\VSCode\\Microsoft VS Code\\.prettierrc",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    // turn off abc autocomplete
+    "editor.suggest.showWords": false,
+    //colorful teminal
+    "terminal.integrated.fontFamily": "'MesloLGM NF'",
+    "terminal.integrated.shellArgs.windows": "-nologo",
+    //make my accidently pushing alt button doesn't focus on menu-bar
+    "window.titleBarStyle": "custom",
+    "window.customMenuBarAltFocus": false,
+    "window.enableMenuBarMnemonics": false,
+    //keybinding
+    "lineJumper.linesToJump": 1,
+    //TODO Highlight extension
+    "todohighlight.keywords": [
+        {
+            "text": "TODO",
+            "color": "white",
+            "border": "4px solid #fb6540",
+            "backgroundColor": "#fb6540",
+            "overviewRulerColor": "grey",
+            "borderRadius": "2px"
+        },
+        {
+            "text": "DONE",
+            "color": "white",
+            "border": "4px solid #16e839",
+            "backgroundColor": "#16e839",
+            "overviewRulerColor": "grey",
+            "borderRadius": "5px"
+        },
+        {
+            "text": "NOTE",
+            "color": "black",
+            "border": "1px solid #e7e042",
+            "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+            "backgroundColor": "#e7e042"
+            //other styling properties goes here ...
+        },
+        {
+            "text": "FIXME",
+            "color": "white",
+            "border": "1px solid #cc0000",
+            "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+            "backgroundColor": "#cc0000"
+            //other styling properties goes here ...
+        },
+        {
+            "text": "WARNING",
+            "color": "white",
+            "border": "1px solid #dc3545",
+            "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+            "backgroundColor": "#dc3545"
+            //other styling properties goes here ...
+        }
+    ]
+}
